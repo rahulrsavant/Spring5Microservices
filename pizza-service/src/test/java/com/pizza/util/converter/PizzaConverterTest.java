@@ -4,7 +4,7 @@ import com.pizza.dto.IngredientDto;
 import com.pizza.dto.PizzaDto;
 import com.pizza.model.Ingredient;
 import com.pizza.model.Pizza;
-import com.pizza.util.converter.enums.PizzaEnumConverterImpl;
+//import com.pizza.util.converter.enums.PizzaEnumConverterImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -24,7 +24,7 @@ import static com.pizza.enums.PizzaEnum.CARBONARA;
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(classes = { IngredientConverterImpl.class, PizzaConverterImpl.class, PizzaEnumConverterImpl.class })
+//@SpringBootTest(classes = { IngredientConverterImpl.class, PizzaConverterImpl.class, PizzaEnumConverterImpl.class })
 public class PizzaConverterTest {
 
     @Autowired

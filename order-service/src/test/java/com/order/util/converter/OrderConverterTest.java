@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest(classes = OrderConverterImpl.class)
+//@SpringBootTest(classes = OrderConverterImpl.class)
 public class OrderConverterTest {
 
     @Autowired

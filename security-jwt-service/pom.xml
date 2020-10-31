@@ -77,11 +77,10 @@
             <version>${nimbus-jose-jwt.version}</version>
         </dependency>
         <!-- Database related -->
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
         <!-- Code generators -->
         <dependency>
             <groupId>org.projectlombok</groupId>

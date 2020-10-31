@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/doctore/Spring5Microservices_ConfigServerData
+          uri: https://github.com/rahulrsavant/-Spring5Microservices_ConfigServerData-
           searchPaths: gateway-server,pizza-service,order-service,security-jwt-service,security-oauth-service
 
 eureka:

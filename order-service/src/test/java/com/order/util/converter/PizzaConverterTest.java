@@ -20,7 +20,7 @@ import static com.order.TestDataFactory.buildPizzaDto;
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(classes = PizzaConverterImpl.class)
+//@SpringBootTest(classes = PizzaConverterImpl.class)
 public class PizzaConverterTest {
 
     @Autowired

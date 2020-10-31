@@ -2,7 +2,7 @@
 spring:
   ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
-    url: jdbc:postgresql://localhost:5432/microservice_test
+    url: jdbc:mysql://localhost:3306/microservice_test?allowPublicKeyRetrieval=true&useSSL=false
     username: microservice_test
     password: microservice_test
   jpa:
